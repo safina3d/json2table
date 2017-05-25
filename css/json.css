@@ -1,0 +1,46 @@
+* {
+    border-radius: 0 !important;
+}
+body {
+    background: #fff;
+    font-family: Consolas, monospace;
+    font-size: 11px;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.inputZone {
+    width: 25%;
+    min-height: 100vh;
+    background: #fafafa;
+    padding: 20px;
+    border-right: 1px dashed #a99f9f;
+}
+
+.outputZone {
+    width: 75%;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.inputZone textarea {
+    font-size: 0.9em;
+    min-height: 80vh;
+    width: 100%;
+    background: lightgoldenrodyellow;
+    border: 1px solid #dddddd;
+}
+
+.str{
+    color: mediumseagreen;
+}
+
+.bln{
+    color: #783db3;
+}
+
+.null {
+    color: #f94848;
+}
